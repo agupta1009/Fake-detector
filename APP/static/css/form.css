@@ -1,0 +1,96 @@
+.file{align-items:stretch;display:flex;justify-content:flex-start;position:relative}
+        .file-label {
+            align-items: stretch;
+            display: flex;
+            cursor: pointer;
+            justify-content: flex-start;
+            overflow: hidden;
+            position: relative;
+        }
+        .file-input {
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            outline: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .file.has-name .file-cta {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+        }
+        .file-cta {
+            background-color: #f5f5f5;
+            color: #4a4a4a;
+        }
+        .file-cta, .file-name {
+            border-color: #dbdbdb;
+            border-radius: 4px;
+            font-size: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            white-space: nowrap;
+        }
+        .button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            align-items: center;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            box-shadow: none;
+            display: inline-flex;
+            font-size: 1rem;
+            height: 2.5em;
+            justify-content: flex-start;
+            line-height: 1.5;
+            padding-bottom: calc(.5em - 1px);
+            padding-left: calc(.75em - 1px);
+            padding-right: calc(.75em - 1px);
+            padding-top: calc(.5em - 1px);
+            position: relative;
+            vertical-align: top;
+        }
+
+        .button, .file-cta, .file-name, .input, .pagination-ellipsis, .pagination-link, .pagination-next, .pagination-previous, .select select, .textarea {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            align-items: center;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            box-shadow: none;
+            display: inline-flex;
+            font-size: 1rem;
+            height: 2.5em;
+            justify-content: flex-start;
+            line-height: 1.5;
+            padding-bottom: calc(.5em - 1px);
+            padding-left: calc(.75em - 1px);
+            padding-right: calc(.75em - 1px);
+            padding-top: calc(.5em - 1px);
+            position: relative;
+            vertical-align: top;
+        }
+        .input, .textarea {
+            box-shadow: inset 0 0.0625em 0.125em rgba(10,10,10,.05);
+            max-width: 100%;
+            width: 100%;
+        }
+        .input, .select select, .textarea {
+            background-color: #fff;
+            border-color: #dbdbdb;
+            border-radius: 4px;
+            color: #363636;
+        }
+        .control {
+            box-sizing: border-box;
+            clear: both;
+            font-size: 1rem;
+            position: relative;
+            text-align: inherit;
+        }
+
+        span {
+            font-style: inherit;
+            font-weight: inherit;
+        }
